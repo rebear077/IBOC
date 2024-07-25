@@ -12,19 +12,19 @@ QWEN-Audio在本机是跑不起来的，内存不够。
 
 在dockerhub拉取pythorch镜像(选择devel版本)。例如：
 
-![image-20240725155344645](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240725155344645.png)
+![](QWEN-Audio安装文档.assets/微信截图_20240725164110.png)
 
 pytorch和cuda的版本参考Qwen-Audio-Chat要求。
 
-![image-20240725155406141](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240725155406141.png)
+![](QWEN-Audio安装文档.assets/微信截图_20240725164145.png)
 
 ## Step 3 
 
 打开pytorch镜像，看是否需要升级镜像自带的python版本，并安装requirements.txt里的依赖包。（如果出现某个包找不到，可以试试清华源， pip install XX -i https://pypi.tuna.tsinghua.edu.cn/simple）
 
-![image-20240725155748438](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240725155748438.png)
+![](QWEN-Audio安装文档.assets/微信截图_20240725164203.png)
 
-![image-20240725155810684](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240725155810684.png)
+![](QWEN-Audio安装文档.assets/微信截图_20240725164221.png)
 
 ## Step 4 
 
