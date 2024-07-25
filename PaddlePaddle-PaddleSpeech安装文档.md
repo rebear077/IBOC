@@ -30,7 +30,7 @@ https://blog.csdn.net/weixin_44966641/article/details/123760614
 
 #### 1 安装paddlepaddle
 
-![image-20240725154321273](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240725154321273.png)
+![image-20240725163424476](PaddlePaddle-PaddleSpeech安装文档.assets/image-20240725163424476.png)
 
 选择官网2.4版本，跟着教程走就行。
 

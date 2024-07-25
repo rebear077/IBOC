@@ -2,9 +2,7 @@
 
 ## 一、架构
 
-![image-20240710092654701](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240710092654701.png)
-
-
+![](DeepSpeech.assets/微信截图_20240725163630.png)
 
 系统是一个循环神经网络(RNN)，具有一个或多个卷积输入层，随后是多个循环(单向或双向)层，在softmax层之前是一个完全连接层。
 
@@ -14,7 +12,7 @@
 
 在推理过程中，CTC 模型与一个在大规模文本语料库上训练的语言模型配对使用。我们采用一种由 Hannun 等人提出的专门的束搜索算法，来寻找使得目标函数最大的转录结果 `y`。通过这种方法，可以提高语音识别的准确性和流畅性:
 
-![image-20240710101221032](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240710101221032.png)
+![](DeepSpeech.assets/微信截图_20240725163648.png)
 
 在转录结果 $y$ 中，$wc(y)$ 表示单词或字符的数量。权重 $α$ 控制语言模型和 CTC 网络的相对贡献，权重 $\beta$ 鼓励转录结果中包含更多的单词或字符。这些参数在独立的开发集上进行调整，以优化模型的性能。
 
@@ -26,7 +24,7 @@
 
 RNN的公式：
 
-![image-20240710101925564](C:\Users\jdsxj\AppData\Roaming\Typora\typora-user-images\image-20240710101925564.png)
+![](DeepSpeech.assets/微信截图_20240725163755.png)
 
 其中，在时间步$t$的$l$层的激活值是通过将同一时间步t的前一层$h_t^{l-1}$的激活值与在当前层的前一个时间步$t-1$的$h_{t-1}^l$的激活值相结合来计算的。
 
