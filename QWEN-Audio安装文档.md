@@ -1,5 +1,9 @@
 # QWEN-Audio安装文档
 
+QWEN-Audio在本机是跑不起来的，内存不够。
+
+即使是在内网服务器上，也需要先查看四张显卡的使用情况，选择一个内存占用不高的卡跑(命令：CUDA_DEVICE=n python 文件名.py)
+
 ## Step 1 
 
 进入https://hf-mirror.com/Qwen/Qwen-Audio-Chat，点击Files and versions，下载所有文件，打包成一个文件夹，命名Qwen-Audio-Chat。
