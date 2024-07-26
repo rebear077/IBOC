@@ -60,3 +60,17 @@ https://www.paddlepaddle.org.cn/documentation/docs/zh/2.4/install/docker/linux-d
 
 直接在dockerhub上找已经继承paddlespeech的paddlepaddle镜像。
 
+
+
+## 可能遇到的问题
+
+no moudle named _bz
+
+no moudle named lzma
+
+[[问题汇总\]Python3解决ModuleNotFoundError: No module named ‘_bz2‘_python3 modulenotfounderror: no module named-CSDN博客](https://blog.csdn.net/claro/article/details/119409373)
+
+像教程那样找到三个python文件夹，把so文件复制到文件夹里，重新configure python，make and make install
+
+https://blog.csdn.net/Bolly_He/article/details/119750618
+
